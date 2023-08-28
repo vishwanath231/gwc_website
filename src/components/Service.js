@@ -9,8 +9,8 @@ import { BsBoxArrowInUpRight } from 'react-icons/bs';
 const Service = () => {
     return (
         <div className="service_container">
-            <div className="max-w-screen-xl mx-auto my-24 px-5">
-                <div className="grid grid-cols-3 gap-10">
+            <div className="max-w-screen-xl mx-auto px-5">
+                <div className="grid grid-cols-3 gap-6 justify-center items-center">
                     <div className="shadow p-6 h-fit border-b-4 border-[#5F6368] hover:-mt-1 relative bg-white"
                         data-aos="fade-right"
                         data-aos-offset="100"
@@ -20,7 +20,7 @@ const Service = () => {
                         <img src={Google} alt="" className='w-80 mx-auto mt-0 mb-2' />
                         <p className='mb-5'>We empower businesses with solutions on Google Cloud to drive innovation and cloud transformation, at scale.</p>
                     </div>
-                    <div className="shadow p-6 mt-36 border-b-4 border-[#7E64E0] relative bg-white"
+                    <div className="shadow p-6 mt-56 border-b-4 border-[#7E64E0] relative bg-white"
                         data-aos="fade"
                         data-aos-offset="200"
                         data-aos-delay="200"

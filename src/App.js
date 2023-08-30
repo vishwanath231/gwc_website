@@ -1,32 +1,19 @@
 import React from 'react'
-import Navbar from './components/navbar/Navbar';
-import Slider from './components/Slider';
-import Service from './components/Service';
-import Footer from './components/Footer';
-import Newsletter from './components/Newsletter';
-import Products from './components/Products';
-import About from './components/About';
 import AOS from 'aos';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import _LandingPage from './screens/landing_page/_LandingPage';
+import _GCP from './screens/gcp/_GCP';
 import 'aos/dist/aos.css';
-import Counter from './components/Counter';
-import Features from './components/Features';
 AOS.init();
 
 const App = () => {
     return (
-        <>
-            <Navbar />
-            <Slider />
-            <div className="shape">
-                <Service />
-                <Products />
-            </div>
-            <About />
-            <Counter />
-            <Features />
-            <Newsletter />
-            <Footer />
-        </>
+        <BrowserRouter>
+            <Routes>
+                <Route path='/' element={<_LandingPage />} />
+                <Route path='/gcp' element={<_GCP />} />
+            </Routes>
+        </BrowserRouter>
     )
 }
 

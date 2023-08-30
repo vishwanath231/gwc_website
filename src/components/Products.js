@@ -36,7 +36,7 @@ const Products = () => {
 
                         <div className="p-5">
                             <h6 className="mb-2 font-bold text-[#1D165A] font-sans text-xl leading-5">BI Capability</h6>
-                            <p className="mb-3 text-gray-900">
+                            <p className="mb-1 text-sm text-gray-900">
                                 Successful BI requires the ability to harness data for better decision making that helps your organization evolve.
                             </p>
                             <a href="/" aria-label="" className="hover:underline text-[#3A75F5] inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800 text-sm">Learn more</a>
@@ -58,7 +58,7 @@ const Products = () => {
 
                         <div className="p-5">
                             <h6 className="mb-2 text-[#1D165A] font-bold font-sans text-xl leading-5">Cloud & Infra</h6>
-                            <p className="mb-3 text-gray-900">
+                            <p className="mb-1 text-sm text-gray-900">
                                 Imagine new business models, unlock growth, increase agility and lower cost through cloud and infrastructure modernization.
                             </p>
                             <a href="/" aria-label="" className="hover:underline text-[#3A75F5] inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800 text-sm">Learn more</a>
@@ -79,7 +79,7 @@ const Products = () => {
                         </div>
                         <div className="p-5">
                             <h6 className="mb-2 text-[#1D165A] font-bold font-sans text-xl leading-5">Data Analytics</h6>
-                            <p className="mb-3 text-gray-900">
+                            <p className="mb-1 text-sm text-gray-900">
                                 Imagine new business models, unlock growth, increase agility and lower cost through cloud and infrastructure modernization.
                             </p>
                             <a href="/" aria-label="" className="hover:underline text-[#3A75F5] inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800 text-sm">Learn more</a>
@@ -101,7 +101,7 @@ const Products = () => {
 
                         <div className="p-5">
                             <h6 className="mb-2 text-[#1D165A] font-bold font-sans text-xl leading-5">Digital Strategy & Design</h6>
-                            <p className="mb-3 text-gray-900">
+                            <p className="mb-1 text-sm text-gray-900">
                                 Develop a clear digital vision and get on the right path to successful digital transformation.
                             </p>
                             <a href="/" aria-label="" className="hover:underline text-[#3A75F5] inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800 text-sm">Learn more</a>

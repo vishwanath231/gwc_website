@@ -9,6 +9,7 @@ import About from './components/About';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Counter from './components/Counter';
+import Features from './components/Features';
 AOS.init();
 
 const App = () => {
@@ -22,6 +23,7 @@ const App = () => {
             </div>
             <About />
             <Counter />
+            <Features />
             <Newsletter />
             <Footer />
         </>

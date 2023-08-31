@@ -48,7 +48,7 @@ const Navbar = () => {
                                 </div>
                             </li>
                             <Link to='/gcp' className='flex items-center text-sm font-[600] mr-1 cursor-pointer py-5 px-5 hover:text-[#3875F4] border-b-4 hover:border-b-4 border-white hover:border-[#3875F4]  text-black'>GCP</Link>
-                            <li className='flex items-center text-sm font-[600] mr-1 cursor-pointer py-5 px-5 hover:text-[#3875F4] border-b-4 hover:border-b-4 border-white hover:border-[#3875F4]  text-black '>Domo</li>
+                            <Link to='/domo' className='flex items-center text-sm font-[600] mr-1 cursor-pointer py-5 px-5 hover:text-[#3875F4] border-b-4 hover:border-b-4 border-white hover:border-[#3875F4]  text-black '>Domo</Link>
                             <li className='flex items-center text-sm font-[600] mr-1 cursor-pointer py-5 px-5 hover:text-[#3875F4] border-b-4 hover:border-b-4 border-white hover:border-[#3875F4]  text-black '>Salesforce</li>
                             <li className='flex items-center text-sm font-[600] mr-1 cursor-pointer py-5 px-5 hover:text-[#3875F4] border-b-4 hover:border-b-4 border-white hover:border-[#3875F4]  text-black '>Resources</li>
                             <li className='flex items-center'>

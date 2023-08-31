@@ -1,0 +1,159 @@
+.domo_container {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+
+}
+
+.domo_banner {
+    width: 100%;
+    height: 100vh;
+    background: url('../../../assets/domo.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    z-index: -1;
+}
+
+.domo_container .domo_cloud{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('../../../assets/domo/cloud.png');
+    animation:  animate 60s linear infinite;
+}
+
+@keyframes animate{
+    0%{
+        background-position: 0px;
+    }
+    100%{
+        background-position: 5440px;
+    }
+}
+
+.domo_container #domo_background-wrap {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 999;
+}
+
+/* KEYFRAMES */
+
+
+@keyframes domoAnimateBubble {
+    0% {
+        margin-right: 300px;
+        
+    }
+
+    100% {
+        margin-right: -100%;
+    }
+}
+
+
+@keyframes domoSideWays {
+    0% {
+        margin-left: 0px;
+    }
+
+    100% {
+        margin-left: 50px;
+    }
+}
+
+/* ANIMATIONS */
+
+.domo1 {
+    animation: domoAnimateBubble 25s linear infinite, domoSideWays 2s ease-in-out infinite alternate;
+    left: 45%;
+    top: 5%;
+    transform: scale(0.2);
+}
+
+.domo2 {
+    animation: domoAnimateBubble 20s linear infinite, domoSideWays 4s ease-in-out infinite alternate;
+    left: 5%;
+    top: 80%;
+    transform: scale(0.4);
+}
+
+.domo3 {
+    animation: domoAnimateBubble 28s linear infinite, domoSideWays 2s ease-in-out infinite alternate;
+    left: 10%;
+    top: 20%;
+    transform: scale(0.7);
+}
+
+.domo4 {
+    animation: domoAnimateBubble 22s linear infinite, domoSideWays 3s ease-in-out infinite alternate;
+    left: 20%;
+    top: 0;
+    transform: scale(0.3);
+}
+
+.domo5 {
+    animation: domoAnimateBubble 29s linear infinite, domoSideWays 4s ease-in-out infinite alternate;
+    left: 40%;
+    top: 50%;
+    transform: scale(0.5);
+}
+
+.domo6 {
+    animation: domoAnimateBubble 21s linear infinite, domoSideWays 2s ease-in-out infinite alternate;
+    left: 50%;
+    top: 0;
+    transform: scale(0.8);
+}
+
+.domo7 {
+    animation: domoAnimateBubble 20s linear infinite, domoSideWays 2s ease-in-out infinite alternate;
+    left: 65%;
+    top: 70%;
+    transform: scale(0.4);
+}
+
+.domo8 {
+    animation: domoAnimateBubble 22s linear infinite, domoSideWays 3s ease-in-out infinite alternate;
+    left: 80%;
+    top: 10%;
+    transform: scale(0.3);
+}
+
+.domo9 {
+    animation: domoAnimateBubble 29s linear infinite, domoSideWays 4s ease-in-out infinite alternate;
+    left: 90%;
+    top: 50%;
+    transform: scale(0.6);
+}
+
+.domo10 {
+    animation: domoAnimateBubble 26s linear infinite, domoSideWays 2s ease-in-out infinite alternate;
+    left: 80%;
+    top: 80%;
+    transform: scale(0.3);
+}
+
+/* OBJECTS */
+
+.domo_container .domo_bubble {
+    height: 200px;
+    width: 200px;
+    background: url('../../../assets/domo/airplane1.png');
+    background-repeat: no-repeat;
+    position: absolute;
+}
+
+.domo_bubble:after {
+    content: "";
+    height: 180px;
+    left: 10px;
+    position: absolute;
+    width: 180px;
+}

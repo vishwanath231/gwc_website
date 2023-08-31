@@ -52,7 +52,7 @@ const Navbar = () => {
                             <Link to='/salesforce' className='flex items-center text-sm font-[600] mr-1 cursor-pointer py-5 px-5 hover:text-[#3875F4] border-b-4 hover:border-b-4 border-white hover:border-[#3875F4]  text-black '>Salesforce</Link>
                             <li className='flex items-center text-sm font-[600] mr-1 cursor-pointer py-5 px-5 hover:text-[#3875F4] border-b-4 hover:border-b-4 border-white hover:border-[#3875F4]  text-black '>Resources</li>
                             <li className='flex items-center'>
-                                <button className='border-2 border-[#3875F4] bg-[#3875F4] text-md font-[500] p-1.5 cursor-pointer hover:bg-transparent text-white'>Let's talk</button>
+                                <button className='border-2 border-[#3875F4] bg-[#3875F4] text-md font-[500] p-1.5 cursor-pointer hover:bg-transparent text-white hover:text-[#3875F4]'>Let's talk</button>
                             </li>
                         </ul>
                     </div>

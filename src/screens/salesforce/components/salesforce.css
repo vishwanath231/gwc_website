@@ -1,0 +1,161 @@
+.salesforce_container {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+
+}
+
+.salesforce_banner {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: url('../../../assets/salesforce/salesforce.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.salesforce_container .salesforce_cloud {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('../../../assets/domo/cloud.png');
+    animation: animate 60s linear infinite;
+    z-index: 9999;
+}
+
+@keyframes animate {
+    0% {
+        background-position: 0px;
+    }
+
+    100% {
+        background-position: 5440px;
+    }
+}
+
+.salesforce_container #salesforce_background-wrap {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 999;
+}
+
+/* KEYFRAMES */
+
+
+@keyframes salesforceAnimateBubble {
+    0% {
+        margin-right: 300px;
+
+    }
+
+    100% {
+        margin-right: -100%;
+    }
+}
+
+
+@keyframes salesforceSideWays {
+    0% {
+        margin-left: 0px;
+    }
+
+    100% {
+        margin-left: 50px;
+    }
+}
+
+/* ANIMATIONS */
+
+.salesforce1 {
+    animation: salesforceAnimateBubble 25s linear infinite, salesforceSideWays 2s ease-in-out infinite alternate;
+    left: 45%;
+    top: 5%;
+    transform: scale(0.2);
+}
+
+.salesforce2 {
+    animation: salesforceAnimateBubble 20s linear infinite, salesforceSideWays 4s ease-in-out infinite alternate;
+    left: 5%;
+    top: 80%;
+    transform: scale(0.4);
+}
+
+.salesforce3 {
+    animation: salesforceAnimateBubble 28s linear infinite, salesforceSideWays 2s ease-in-out infinite alternate;
+    left: 10%;
+    top: 20%;
+    transform: scale(0.7);
+}
+
+.salesforce4 {
+    animation: salesforceAnimateBubble 22s linear infinite, salesforceSideWays 3s ease-in-out infinite alternate;
+    left: 20%;
+    top: 0;
+    transform: scale(0.3);
+}
+
+.salesforce5 {
+    animation: salesforceAnimateBubble 29s linear infinite, salesforceSideWays 4s ease-in-out infinite alternate;
+    left: 40%;
+    top: 64%;
+    transform: scale(0.5);
+}
+
+.salesforce6 {
+    animation: salesforceAnimateBubble 21s linear infinite, salesforceSideWays 2s ease-in-out infinite alternate;
+    left: 50%;
+    top: 0;
+    transform: scale(0.8);
+}
+
+.salesforce7 {
+    animation: salesforceAnimateBubble 20s linear infinite, salesforceSideWays 2s ease-in-out infinite alternate;
+    left: 76%;
+    top: 50%;
+    transform: scale(0.4);
+}
+
+.salesforce8 {
+    animation: salesforceAnimateBubble 22s linear infinite, salesforceSideWays 3s ease-in-out infinite alternate;
+    left: 80%;
+    top: 10%;
+    transform: scale(0.3);
+}
+
+.salesforce9 {
+    animation: salesforceAnimateBubble 29s linear infinite, salesforceSideWays 4s ease-in-out infinite alternate;
+    left: 90%;
+    top: 50%;
+    transform: scale(0.6);
+}
+
+.salesforce10 {
+    animation: salesforceAnimateBubble 26s linear infinite, salesforceSideWays 2s ease-in-out infinite alternate;
+    left: 80%;
+    top: 80%;
+    transform: scale(0.3);
+}
+
+/* OBJECTS */
+
+.salesforce_container .salesforce_bubble {
+    height: 200px;
+    width: 200px;
+    background: url('../../../assets/salesforce/umbrella.png');
+    background-repeat: no-repeat;
+    position: absolute;
+}
+
+.salesforce_bubble:after {
+    content: "";
+    height: 180px;
+    left: 10px;
+    position: absolute;
+    width: 180px;
+}

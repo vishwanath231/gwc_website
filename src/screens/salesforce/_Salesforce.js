@@ -9,7 +9,6 @@ const _Salesforce = () => {
             <Navbar />
             <SalesforceBanner />
         </>
-    
     )
 }
 

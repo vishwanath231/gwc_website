@@ -157,3 +157,39 @@
     position: absolute;
     width: 180px;
 }
+
+
+.domo_info{
+    width: 100%;
+    height: 100%;
+    background: url('../../../assets/sale.jpeg');
+    background-repeat: no-repeat;
+}
+
+
+.domo_benefits {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 1.5em;
+}
+
+.domo_card_1 {
+    grid-area: 1 / 1 / 2 / 3;
+}
+
+.domo_card_2 {
+    grid-area: 1 / 3 / 2 / 5;
+}
+
+.domo_card_3 {
+    grid-area: 1 / 5 / 3 / 6;
+}
+
+.domo_card_4 {
+    grid-area: 2 / 1 / 3 / 3;
+}
+
+.domo_card_5 {
+    grid-area: 2 / 3 / 3 / 5;
+}

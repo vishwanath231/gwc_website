@@ -330,7 +330,7 @@
 
 
 .gcp_border{
-        border: 10px solid transparent;
+        border: 5px solid transparent;
         background-size: 100% 100%, 50% 50%, 50% 50%, 50% 50%, 50% 50%;
         background-repeat: no-repeat;
         background-image: linear-gradient(white, white),

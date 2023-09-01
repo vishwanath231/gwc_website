@@ -193,3 +193,7 @@
 .domo_card_5 {
     grid-area: 2 / 3 / 3 / 5;
 }
+
+.domo_gwc{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}

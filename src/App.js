@@ -5,6 +5,7 @@ import LandingPage from './screens/landing_page/_LandingPage';
 import GCP from './screens/gcp/_GCP';
 import DOMO from './screens/domo/_DOMO';
 import Salesforce from './screens/salesforce/_Salesforce';
+import Career from './screens/career/_Career';
 import 'aos/dist/aos.css';
 AOS.init();
 
@@ -16,6 +17,7 @@ const App = () => {
                 <Route path='/gcp' element={<GCP />} />
                 <Route path='/domo' element={<DOMO />} />
                 <Route path='/salesforce' element={<Salesforce /> } />
+                <Route path='/careers' element={<Career />  } />
             </Routes>
         </BrowserRouter>
     )

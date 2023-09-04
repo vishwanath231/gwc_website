@@ -9,6 +9,7 @@ import Features from './components/Features';
 import Newsletter from '../../components/Newsletter';
 import Footer from '../../components/footer/Footer';
 import './components/landing.css';
+import Company from './components/Company';
 
 const _LandingPage = () => {
     return (
@@ -22,6 +23,7 @@ const _LandingPage = () => {
             <About />
             <Counter />
             <Features />
+            <Company />
             <Newsletter />
             <Footer />
         </>

@@ -8,7 +8,7 @@ import LOGO from '../../assets/logo.png';
 
 const Footer = () => {
     return (
-        <div className='footer_container mt-20'>
+        <div className='footer_container'>
             <footer className='bg-[#F6F8FF] pt-12 pb-6'>
                 <div className="max-w-screen-xl mx-auto">
                     <div className="grid grid-cols-4 gap-10 pb-12">

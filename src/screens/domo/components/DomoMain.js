@@ -8,7 +8,7 @@ import Partner from '../../../assets/domo/agreement.png';
 
 const DomoMain = () => {
     return (
-        <>
+        <div className='mb-20'>
             <div className="">
                 <div className="domo_info max-w-screen-xl mx-auto my-10 py-20 px-5">
                     <div className="grid grid-cols-2 gap-5">
@@ -59,7 +59,7 @@ const DomoMain = () => {
                     </div>
                 </div>
             </div>
-        </>
+        </div>
     )
 }
 

@@ -11,7 +11,7 @@ import GCP_GIF2 from '../../../assets/gcp/gwc_gcp.gif';
 
 const GCP_Card = () => {
     return (
-        <div>
+        <div className='mb-20'>
             <div className="max-w-screen-xl mx-auto py-20 px-5">
                 <div className="grid grid-cols-2 gap-4">
                     <div className="">

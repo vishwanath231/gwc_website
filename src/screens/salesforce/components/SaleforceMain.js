@@ -6,7 +6,7 @@ import SaleforceDesc from '../../../assets/salesforce/DK-blog-Einstein.png';
 
 const SaleforceMain = () => {
     return (
-        <div>
+        <div className='mb-20'>
             <div className="max-w-screen-xl mx-auto my-5 py-20 px-5">
                 <div className="grid grid-cols-3 gap-5 items-center">
                     <div className="col-span-2">

@@ -1,25 +1,26 @@
-.career_banner{
+.contact_banner {
     position: relative;
     width: 100%;
     height: 75vh;
-    background: url('../../../assets/career/bg.jpg');
+    background: url('../../../assets/contact/bg.jpg');
     background-repeat: no-repeat;
+    background-position-y: -100px;
     background-size: cover;
     z-index: 99;
 }
 
-.career_banner::before{
+.contact_banner::before {
     position: absolute;
     content: '';
     top: 0;
     left: 0;
     width: 100%;
     height: 75vh;
-    background: rgba(0,0,0,0.5);
+    background: rgba(0, 0, 0, 0.5);
     z-index: -1;
 }
 
-.career_title{
+.contact_title {
     max-width: 1280px;
     margin: 0 auto;
     min-height: 75vh;
@@ -27,7 +28,8 @@
     justify-content: center;
     align-items: center;
 }
-.career_title h2{
+
+.contact_title h2 {
     font-size: 4rem;
     font-weight: 800;
     z-index: 999;

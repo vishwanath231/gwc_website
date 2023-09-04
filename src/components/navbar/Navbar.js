@@ -58,7 +58,7 @@ const Navbar = () => {
                                     </ul>
                                 </div>
                             </li>
-                            <Link to='/' className='flex items-center text-sm font-[600]  cursor-pointer py-5 px-3 hover:text-[#3875F4] border-b-4 hover:border-b-4 border-white hover:border-[#3875F4]  text-black'>Contact</Link>
+                            <Link to='/contact' className='flex items-center text-sm font-[600]  cursor-pointer py-5 px-3 hover:text-[#3875F4] border-b-4 hover:border-b-4 border-white hover:border-[#3875F4]  text-black'>Contact</Link>
                         </ul>
                     </div>
                </div>

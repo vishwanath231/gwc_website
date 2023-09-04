@@ -24,7 +24,9 @@ const CareerMain = () => {
                         <button type="submit" className='career_search_btn'>Go</button>
                     </form>
                 </div>
-                <div className="max-w-screen-xl mx-auto mt-10 mb-20 px-5">
+
+
+                <div className="career_container max-w-screen-xl mx-auto mt-10 mb-20 px-5">
                     <div className="grid grid-cols-2 gap-5">
                         <div className="border p-4 rounded-md sahdow">
                             <div className="flex justify-between items-center">

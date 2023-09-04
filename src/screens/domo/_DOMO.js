@@ -1,6 +1,6 @@
 import React from 'react'
-import Navbar from '../../components/navbar/Navbar';
 import './components/domo.css';
+import Navbar from '../../components/navbar/Navbar';
 import DomoBanner from './components/DomoBanner';
 import DomoMain from './components/DomoMain';
 import Footer from '../../components/footer/Footer';

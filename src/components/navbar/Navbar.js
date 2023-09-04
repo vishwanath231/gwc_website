@@ -53,7 +53,7 @@ const Navbar = () => {
                             <li className='resource_nav flex items-center text-sm font-[600] mr-7 cursor-pointer py-5 px-3 hover:text-[#3875F4] border-b-4 hover:border-b-4 border-white hover:border-[#3875F4]  text-black '>Resources
                                 <div className="resource_dropdown text-black">
                                     <ul>
-                                        <li className='flex items-center p-3 hover:bg-[#3A74F5] hover:text-white'>Careers</li>
+                                        <Link to='/careers' className='flex items-center p-3 hover:bg-[#3A74F5] hover:text-white'>Careers</Link>
                                         <li className='p-3 hover:bg-[#3A74F5] hover:text-white'>Case Studies</li>
                                     </ul>
                                 </div>

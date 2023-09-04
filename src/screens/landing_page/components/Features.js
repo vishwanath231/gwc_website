@@ -32,7 +32,7 @@ const Features = () => {
                 <div className="max-w-4xl text-sm mt-4">We build strategic data analytics platforms helping businesses gain value from their data assets and extend their capabilities to truly data-driven decision making.</div>
         
                 <div className="grid grid-cols-3 gap-4 mt-10">
-                    <div className="">
+                    <div className="border">
                         <div className="bg-white">
                             <div className="feature_box relative p-5 rounded-md">
                                 <img src={Problem} className='w-20' alt="" />
@@ -41,7 +41,7 @@ const Features = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="">
+                    <div className="border">
                         <div className="bg-white">
                             <div className="feature_box relative p-5 rounded-md">
                                 <img src={Build} className='w-[70px]' alt="" />
@@ -50,7 +50,7 @@ const Features = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="">
+                    <div className="border">
                         <div className="bg-white">
                             <div className="feature_box relative p-5 rounded-md">
                                 <img src={Preparation} className='w-20' alt="" />
@@ -59,7 +59,7 @@ const Features = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="">
+                    <div className="border">
                         <div className="bg-white">
                             <div className="feature_box relative p-5 rounded-md">
                                 <img src={Experience} className='w-20' alt="" />
@@ -68,7 +68,7 @@ const Features = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="">
+                    <div className="border">
                         <div className="bg-white">
                             <div className="feature_box relative p-5 rounded-md">
                                 <img src={Analyzed} className='w-[65px]' alt="" />
@@ -78,7 +78,7 @@ const Features = () => {
                         </div>
                     </div>
 
-                    <div className="">
+                    <div className="border">
                         <div className="bg-white">
                             <div className="feature_box relative p-5 rounded-md">
                                 <img src={Deploy} className='w-[65px]' alt="" />
